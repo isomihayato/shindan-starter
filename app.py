@@ -17,13 +17,13 @@ def diagnose():
             "name": "おにぎり",
             "color": "green",
             "desc": "おにぎりを食べて、しゃきっと元気に出発しよう！",
-            }
+        }
     elif mood == "nonbiri":
         menu = {
             "name": "おかゆ",
             "color": "blue",
             "desc": "あたたかいおかゆで、ゆっくり朝を楽しもう。",
-            }
+        }
     else:
         menu = {
             "name": "フルーツパンケーキ",
