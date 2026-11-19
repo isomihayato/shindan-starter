@@ -4,30 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>あさごはん診断</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
   <main class="wrap">
     <p class="kicker">2つ答えるだけ</p>
     <h1>あさごはん<span>診断</span></h1>
     <p class="lead">きょうのあなたにぴったりの朝ごはんを見つけます。</p>
-    <form class="card">
-      <label class="q">
-        <span class="qtitle">Q1. なまえを教えてください</span>
-        <input type="text" name="name" placeholder="ひなた" required>
-      </label>
-      <fieldset class="q">
-        <legend class="qtitle">Q2. いまのきぶんは？</legend>
-        <div class="pills">
-          <label><input type="radio" name="mood" value="wakuwaku" checked><span>わくわく</span></label>
-          <label><input type="radio" name="mood" value="shaki"><span>しゃきっと</span></label>
-          <label><input type="radio" name="mood" value="nonbiri"><span>のんびり</span></label>
-        </div>
-      </fieldset>
-      <button type="submit">診断する</button>
-    </form>
+    <div class="card"><p>ようこそ！あさごはん診断へ。</p></div>
   </main>
 </body>
 </html>
