@@ -26,9 +26,9 @@ def diagnose():
             }
     else:
         menu = {
-            "name": "パンケーキ",
+            "name": "フルーツパンケーキ",
             "color": "pink",
-            "desc": "ふんわり甘い朝ごはんで、一日を楽しく始めよう！",
+            "desc": "好きなフルーツを添えて、わくわくする朝にしよう！",
         }
     return render_template("result.html", name=name, menu=menu)
 
