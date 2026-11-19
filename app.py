@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("form.html")
+    name = "ひなた"
+    return render_template("form.html", name=name)
 
 
 if __name__ == "__main__":
